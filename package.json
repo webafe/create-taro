@@ -1,0 +1,42 @@
+{
+  "name": "@webafe/create-taro",
+  "version": "0.0.1-beta.0",
+  "description": "Creates a tarojs application using the command line.",
+  "bin": {
+    "create-taro": "cli.js"
+  },
+  "scripts": {
+    "prepublishOnly": "np --no-cleanup --yolo --no-publish"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clipboardy": "^1.2.3",
+    "debug": "^3.1.0",
+    "execa": "^1.0.0",
+    "inquirer": "^6.2.1",
+    "mkdirp": "^0.5.1",
+    "semver": "^5.5.1",
+    "yargs-parser": "^11.0.0",
+    "yeoman-generator": "^3.1.1"
+  },
+  "devDependencies": {
+    "np": "^4.0.2"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webafe/create-taro"
+  },
+  "homepage": "https://github.com/webafe/create-taro",
+  "authors": [
+    "Zero <tobewhatwewant@gmail.com> (https://github.com/whatwewant)"
+  ],
+  "bugs": {
+    "url": "https://github.com/webafe/create-taro/issues"
+  },
+  "files": [
+    "cli.js",
+    "index.js",
+    "lib"
+  ]
+}
