@@ -5,7 +5,7 @@ Creates a Tarojs application using the command line.
 ## Usage
 
 ```bash
-$ yarn create taro [appName]
+$ yarn create @webafe/taro [appName?]
 ```
 
 ## Boilerplates
@@ -17,7 +17,7 @@ $ yarn create taro [appName]
 ## Usage Example
 
 ```bash
-$ yarn create taro
+$ yarn create @webafe/taro
 
 ? Select the boilerplate type (Use arrow keys)
 ❯ app             - Create taro project with dva & TypeScript.
@@ -48,7 +48,7 @@ $ yarn create taro
 
 ## FAQ
 
-### `yarn create taro` command failed
+### `yarn create @webafe/taro` command failed
 
 这个问题基本上都是因为没有添加 yarn global module 的路径到 PATH 环境变量引起的。
 
@@ -65,10 +65,10 @@ $ yarn global bin
 $ npm create taro
 ```
 
-或者手动安装 create-taro，并执行他，
+或者手动安装 @webafe/create-taro，并执行他，
 
 ```bash
-$ npm install create-taro -g
+$ npm install @webafe/create-taro -g
 $ create-taro
 ```
 
