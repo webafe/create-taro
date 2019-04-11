@@ -1,6 +1,6 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "dva-for-taro-example",
+  "projectname": "<%= name %>",
   "description": "",
   "appid": "touristappid",
   "setting": {
