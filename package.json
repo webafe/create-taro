@@ -1,6 +1,6 @@
 {
   "name": "@webafe/create-taro",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Creates a tarojs application using the command line.",
   "bin": {
     "create-taro": "cli.js"
