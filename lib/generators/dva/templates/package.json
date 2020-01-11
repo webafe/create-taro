@@ -20,7 +20,7 @@
     "dev:tt": "npm run build:tt -- --watch",
     "dev:h5": "npm run build:h5 -- --watch",
     "dev:rn": "npm run build:rn -- --watch",
-    "dev:redux-server": "remotedev --hostname=localhost --port=5678"
+    "dev:redux-server": "redux-devtools --hostname=localhost --port=5678"
   },
   "license": "MIT",
   "dependencies": {
@@ -60,6 +60,7 @@
     "eslint-plugin-react": "^7.8.2",
     "eslint-plugin-react-hooks": "^1.6.1",
     "eslint-plugin-taro": "2.0.0-beta.13",
+    "redux-devtools-cli": "^0.0.1-1",
     "stylelint": "9.3.0",
     "stylelint-config-taro-rn": "2.0.0-beta.13",
     "stylelint-taro-rn": "2.0.0-beta.13",
