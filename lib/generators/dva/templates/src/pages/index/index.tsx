@@ -1,24 +1,14 @@
+import React, { FC } from 'react';
 import Taro from '@tarojs/taro'
-import React, { Component } from 'react';
 import { View, Text } from '@tarojs/components'
 import './index.scss'
 
-export default class Index extends Component {
-  componentWillMount () { }
+const Index: FC = () => {
+  return (
+    <View className='index'>
+      <Text>Hello world!</Text>
+    </View>
+  )
+};
 
-  componentDidMount () { }
-
-  componentWillUnmount () { }
-
-  componentDidShow () { }
-
-  componentDidHide () { }
-
-  render () {
-    return (
-      <View className='index'>
-        <Text>Hello world!</Text>
-      </View>
-    )
-  }
-}
+export default Index;
