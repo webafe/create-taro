@@ -1,6 +1,7 @@
-import Taro, { Component, Config } from '@tarojs/taro'
-import { View, Text } from '@tarojs/components'
-import { connect } from '@tarojs/redux';
+import Taro from '@tarojs/taro';
+import React, { Component } from 'react';
+import { View, Text } from '@tarojs/components';
+import { connect } from 'react-redux';
 import './index.scss'
 
 export interface State {
@@ -30,18 +31,6 @@ const mapActions = (dispatch: (action: Action) => void) => ({
 
 @connect(mapState, mapActions)
 export default class Index extends Component<Props, State> {
-
-  /**
-   * 指定config的类型声明为: Taro.Config
-   *
-   * 由于 typescript 对于 object 类型推导只能推出 Key 的基本类型
-   * 对于像 navigationBarTextStyle: 'black' 这样的推导出的类型是 string
-   * 提示和声明 navigationBarTextStyle: 'black' | 'white' 类型冲突, 需要显示声明类型
-   */
-  config: Config = {
-    navigationBarTitleText: 'Count'
-  }
-
   componentWillMount () { }
 
   componentDidMount () { }
